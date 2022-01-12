@@ -1,0 +1,248 @@
+{
+    "name": "Black Devil",
+    "description": "Black Devil is powerfull chat bot for WhatsApp. Super bot Made in sri lanka userbot for Whatsapp and Working perfectly",
+    "logo": "https://telegra.ph/file/d971044793351efcaa693.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Black Devil"],
+    "repository": "https://chat.whatsapp.com/GnrMImmgvcVKWjhOi40fsP",
+    "website":   "https://chat.whatsapp.com/GnrMImmgvcVKWjhOi40fsP",
+    "success_url": "https://chat.whatsapp.com/GnrMImmgvcVKWjhOi40fsP",
+    "stack": "container",
+    "env": {
+        "BLACKDEVIL_SESSION": {
+            "description": "Paste your QR session.",
+            "required": true
+        },
+        "SUDO": {
+            "description": "If you don't know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
+            "required": false
+        },
+        "BIO": {
+            "description": "Change Your Bot Bio  | ඔබේ Bot ගේ About එකට දැමීමට අවශ්‍ය දෙය මෙහි ලියන්න",
+            "required": false,
+            "value": "ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥"
+        },
+        "AUTO_STICKER": {
+            "description": "If you like Auto Sticker you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "false"
+         },
+        "BOT_NAME": {
+            "description": "give a name you desire to give your bot (for auto reply  to identify)",
+            "required": false,
+            "value": "🥷BLACK DEVIL (™️"
+        },
+        "FULL_DEVIL": {
+            "description": "Activate White devil chat bot",
+            "required": false,
+            "value": "false"
+        },
+        "SONGD": {
+            "description": "Customize Song Download message",
+            "required": false,
+            "value": "🎧🎧 Downloading Your Song 🎧🎧"
+        },
+        "SONGU": {
+            "description": "Customize Song upload message",
+            "required": false,
+            "value": "🎧🎧 Uploading Your Song 🎧🎧"
+        },
+        "LANGUAGE": {
+            "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
+            "required": true,
+            "value": "SI"
+        },
+        "AUTO_BIO": {
+            "description": "Set AUTO BIO . Add this a live clock for your WhatsApp about.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Enter bot prefix to use all commands.",
+            "required": true,
+            "value": "^[.!]"
+        },
+        "AI_BOT": {
+            "description": "To enable / disable the AI chat this bot. Use true to enable AI chat bot and false to deactivate AI chat bot.",
+            "required": true,
+            "value": "true"
+        },
+        "SEND_READ": {
+            "description": "Do you want to show user whether bot message seen or not?",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU": {
+            "description": "Heroku",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Use the same App name as first.",
+            "required": true
+        },
+        "CAPTIONS": {
+            "description": "Set your caption under medias.",
+            "required": true,
+            "value": "Made By 🥷BLACK DEVIL"
+        },
+        "MUTE_MESSAGE": {
+            "description": "Message received when mute a group. If you don't want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
+            "required": false,
+            "value": "no chats added"
+        },
+        "ANTI_BAD": {
+            "description": "Activate Anti-Bad word for your groups. (Use true or false)",
+            "required": true,
+            "value": "false"
+        },
+        "WHATS_LINK_BLOCK": {
+            "description": "Activate Whatsapp link block for your groups. And protect your groups by bug bots.(Use true or false)",
+            "required": true,
+            "value": "false"
+        },
+        "ALIVE_LOGO": {
+            "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
+            "required": true,
+            "value": "https://telegra.ph/file/d971044793351efcaa693.jpg"
+        },
+        "WELCOME_GIF": {
+            "description": "Welcome message logo. Enter your image,video and Gif link below to change this. (Upload the image you want to https://imgbb.com and put that link here.)",
+            "required": true,
+            "value": "https://telegra.ph/file/26483aeb2310334da23b5.mp4"
+        },
+        "BYE_GIF": {
+            "description": "Good Bye message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
+            "required": true,
+            "value": "https://telegra.ph/file/0a5141280a88eccc9ecfe.jpg"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Message received when unmuting a group.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Modifiable chat block notification. If you don't want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "WORK_TYPE": {
+            "description": "The bot works. If you use public, everyone can use this bot. If you use private, only you can use your bot.",
+            "required": true,
+            "value": "private"
+        },
+        "EMOJI_COMMAND": {
+            "description": "You can change this Command list emojis.)",
+            "required": true,
+            "value": "🥷"
+        },
+        "EMOJI_DESCRIPTION": {
+            "description": "You can change command list emojis.)",
+            "required": true,
+            "value": "🧬"
+        },
+        "EMOJI_WARNING": {
+            "description": "You can change command list emojis.)",
+            "required": true,
+            "value": "⚠️"
+        },
+        "DEBUG": {
+            "description": "If you don't know this. Give it up.",
+            "required": true,
+            "value": "false"
+        },
+        "PANEL_COMMAND": {
+            "description": "Customize commands list request command. Keep devil if you don't want to change.",
+            "required": true,
+            "value": "devil"
+        },
+        "REMOVE_BG_API_KEY": {
+            "description": "Here you go to this website remove.bg and sign up and get an API key. Leave the API key in this space.",
+            "required": false
+        },
+        "ALIVE_MESSAGE": {
+            "description": "The message you get when you check whether the bot is online or not. This is not necessaraly the case.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "The message you get when someone commands you as .ban and remove it. If you don't change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MESSAGE": {
+            "description": "If you don't  change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKMe_MESSAGE": {
+            "description": "If you don't  change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "If you don't  change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "If you don't  change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "If you don't  change this message, type default.",
+            "required": false,
+            "value": "default"
+        },
+        "NO_ONLINE": {
+            "description": "This is not necessaraly the case.",
+            "required": false,
+            "value": "true"
+        },
+        "COFFEEHOUSE_API_KEY": {
+            "description": "Give it up. We give you this.",
+            "required": false,
+            "value": "true"
+        },
+        "BUG_COMMAND": {
+            "description": "Bug Command",
+            "required": false,
+            "value": "bug"
+        },
+        "TIME_ZONE": {
+            "description": "Type your Time Zone (Pass this Sri Lankan Users) ",
+            "required": false,
+            "value": "Asia/Colombo"
+        },
+        "INBOX_BLOCK": {
+            "description": "Activate Inbox Block System true or false",
+            "required": false,
+            "value": "false"
+        },
+        "MENU_INFO": {
+            "description": "write Some of Words about yor Bot You can Edite this",
+            "required": false,
+            "value": "🎲 ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ Iꜱ ᴀ  ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️YS Ðενεlσρεяѕ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ.🎯 Ⓑⓛⓐⓒⓚ Ⓓⓔⓥⓘⓛ ⓘⓢ ⓢⓤⓟⓔⓡ ⓦⓗⓐⓣⓢⓐⓟⓟ Ⓑⓞⓣ 🥷"
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
